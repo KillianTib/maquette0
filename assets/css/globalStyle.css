@@ -74,6 +74,65 @@ h2 {
 /* -----------------------------------------------------*/
 /* ----------------- Actualités ------------------------*/
 /* -----------------------------------------------------*/
+#NousConfier{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+
+    
+    
+}
+#ImgNousConfier{
+    position: absolute;
+    z-index: 0;
+
+}
+
+#NousConfierText{
+    position: absolute;
+    height: 100%;
+    width: 450px;  
+    padding-left: 0;
+    margin-left: 0; 
+    top: 0px;
+    left: 420px;
+    
+ 
+    
+}
+#NousConfierText h2{
+    font-family: 'ZonaProBold';
+    color: rgb(15, 47, 120);
+    font-size: bold;
+    font-size: 60px;
+
+}
+#NousConfierText p{
+    font-family: 'ZonaProExtraLight';
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#buttonNousContacter{
+    padding-top:20px;
+    padding-bottom: auto;
+    background-color: rgb(15, 47, 120);
+    border: none;
+    color: white;
+    font-family: ZonaProBold;
+    font-size: bold;
+    font-size: 23px;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+
+ }
+ #buttonNousContacter:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(15, 47, 120);
+ }
 
 /* -----------------------------------------------------*/
 /* --------------- END Actualités ----------------------*/
@@ -88,4 +147,9 @@ h2 {
 /* -----------------------------------------------------*/
 /* ---------------- END HEADER -------------------------*/
 /* -----------------------------------------------------*/
+
+@font-face {
+	font-family: "ZonaProBold" ;
+	src:url("../fonts/zona-pro/ZonaProBold.woff") ;
+}
 
