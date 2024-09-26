@@ -95,8 +95,8 @@ h2 {
     width: 450px;  
     padding-left: 0;
     margin-left: 0; 
-    top: 0px;
-    left: 420px;
+    top: 20px;
+    left: 450px;
     
  
     
@@ -105,13 +105,13 @@ h2 {
     font-family: 'ZonaProBold';
     color: rgb(15, 47, 120);
     font-size: bold;
-    font-size: 60px;
+    font-size: 50px;
 
 }
 #NousConfierText p{
     font-family: 'ZonaProExtraLight';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 #buttonNousContacter{
@@ -122,7 +122,7 @@ h2 {
     color: white;
     font-family: ZonaProBold;
     font-size: bold;
-    font-size: 23px;
+    font-size: 19px;
     padding: 10px 25px;
     border-radius: 5px;
 
