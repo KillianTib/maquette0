@@ -102,10 +102,13 @@ h2 {
     
 }
 #NousConfierText h2{
-    font-family: 'ZonaProBold';
+    font: normal normal normal 40px/40px ZonaProBold;
+    text-transform: uppercase;
     color: rgb(15, 47, 120);
-    font-size: bold;
-    font-size: 50px;
+    width: 399px;
+    height: 80px;
+    text-align: left;
+
 
 }
 #NousConfierText p{
